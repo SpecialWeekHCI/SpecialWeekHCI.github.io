@@ -102,10 +102,9 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-body-bg);
+  background-color: #e9ecef;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  //background-color: var(--bs-gray-dark);
 }
 
 footer{
@@ -8092,6 +8091,10 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.fs-color-gray {
+  color:#495057;
+}
+
 .fst-italic {
   font-style: italic !important;
 }
@@ -8313,7 +8316,7 @@ textarea.form-control-lg {
 }
 
 .bg-light {
-  --bs-bg-opacity: 0.8;
+  --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
